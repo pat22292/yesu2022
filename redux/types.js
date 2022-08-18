@@ -1,0 +1,42 @@
+export const SET_NAME = "SET_NAME";
+export const SET_PRODUCTS = "SET_PRODUCTS";
+export const SET_SELECTED_PRODUCTS = "SET_SELECTED_PRODUCTS";
+export const SET_SELECTED_PRODUCTS_NULL = "SET_SELECTED_PRODUCTS_NULL";
+export const REGISTER = "REGISTER";
+export const REGISTERSM = "REGISTERSM";
+export const CHECKEMAIL = "CHECKEMAIL";
+export const LOGIN = "LOGIN";
+export const LOGINVCODE = "LOGINVCODE";
+export const RENEWVCODE = "RENEWVCODE";
+export const LOADING = "LOADING";
+export const SIGN_OUT = "SIGN_OUT";
+export const ERROR = "ERROR";
+
+export const SHOW_VARIATION = "SHOW_VARIATION";
+export const SHOW_VARIATION_OPTION = "SHOW_VARIATION_OPTION";
+
+export const TEMP_VARIATION = "TEMP_VARIATION";
+export const TEMP_GALLERIES = "TEMP_GALLERIES";
+export const TEMP_VARIATIONIMGS = "TEMP_VARIATIONIMGS";
+export const NEW_PRODUCT = "NEW_PRODUCT";
+
+export const SET_CART = "SET_CART";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const DELETE_ITEM_CART = "DELETE_ITEM_CART";
+export const ALTER_CART = "ALTER_CART";
+export const SET_SELECTED_CART = "SET_SELECTED_CART";
+export const SET_NEW_ORDER = "SET_NEW_ORDER";
+export const SET_PURCHASES = "SET_PURCHASES";
+
+
+export const NEW_STORE = "NEW_STORE";
+export const SHOW_STORE = "SHOW_STORE";
+export const SET_CART_COUNT = "SET_CART_COUNT";
+export const SET_CHECKOUTLIST = "SET_CHECKOUTLIST";
+export const SET_CHECKOUTMODALOFF = "SET_CHECKOUTMODALOFF";
+
+export const CALC_DISTANCE = "CALC_DISTANCE";
+
+
+
+

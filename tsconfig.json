@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "redux/actions/main.js",
+    "redux/reducers/rootReducer.js",
+    "redux/reducers/main.js",
+    "redux/types.js",
+    "redux/store.js",
+    "pages/signin.js",
+    "pages/signin.js",
+    "pages/signin.js",
+    "pages/paymaya.js",
+    "components/tootTip.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

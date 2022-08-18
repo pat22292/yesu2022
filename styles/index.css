@@ -1,0 +1,235 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+/* .btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+} */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+.swiper-button-prev, .swiper-button-next, .swiper-pagination-bullet {
+  color: white!important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #d15959!important;
+}
+
+.swiper-slide {
+  /* height: 50vh!important; */
+  /* width: 50vw!important; */
+}
+.input-appearance {
+  appearance: none!important;
+  -webkit-appearance: none!important;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+.h-98 {
+  height: 30rem!important;
+}
+
+
+/* .truncate-2-lines {
+  max-height: 3.6em; 
+  line-height: 1.8em;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+} */
+
+.truncate-2-lines {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  max-height: 3.6em; 
+  height: 3em;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.max-w-6xl {
+    max-width: 74rem!important;
+}
+
+.slider-banner {
+  height: 235px;
+}
+.slider-banner-small
+{
+  height: 115.5px;
+}
+@media (max-width: 600px) {
+  .product-slider {
+    height: 360px!important;
+    /* width: auto!important; */
+  }
+  .slider-banner {
+    height: 30vh!important;
+  }
+}
+
+@media screen and (device-width: 411px) and (device-height: 823px) {
+  .product-slider {
+    height: 410px!important;
+    /* width: auto!important; */
+  }
+  .slider-banner {
+    height: 30vh!important;
+  }
+}
+
+@media screen and (device-width: 375px) and (device-height: 667px) {
+  .product-slider {
+    height: 380px!important;
+    /* width: auto!important; */
+  }
+  .slider-banner {
+    height: 30vh!important;
+  }
+}
+
+@media screen and (device-width: 414px) and (device-height: 736px) {
+  .product-slider {
+    height: 415px!important;
+    /* width: auto!important; */
+  }
+  .slider-banner {
+    height: 30vh!important;
+  }
+}
+
+@media screen and (device-width: 411px) and (device-height: 731px){
+  .product-slider {
+    height: 410px!important;
+    /* width: auto!important; */
+  }
+  .slider-banner {
+    height: 30vh!important;
+  }
+}
+
+@media screen and (device-width: 768px) and (device-height: 1024px){
+  .max-w-6xl {
+    max-width: 47rem!important;
+  }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 1366px){
+  .max-w-6xl {
+    max-width: 60rem!important;
+  }
+}
+
+@media screen and (device-width: 1366px) and (device-height: 768px){
+  .navbar-popup {
+    right: 36px!important;
+  }
+}
+
+.Google-button {
+  background-color: #d15959!important;
+  color: #fff!important;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  color: #535353;
+  border-bottom: 1px solid #535353;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.css-yk16xz-control {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /* background-color: hsl(0, 0%, 100%); */
+  /* border-color: hsl(0, 0%, 80%); */
+  /* border-radius: 4px; */
+  border-style: n;
+  border-width: 0!important;
+  /* cursor: default; */
+  /* display: -webkit-box; */
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  /* -webkit-flex-wrap: wrap; */
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  min-height: 70px;
+  outline: 0!important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  box-sizing: border-box;
+}
+
+
+
+.css-tj5bde-Svg {
+    visibility: hidden!important;
+}
+
+.css-1okebmr-indicatorSeparator{
+  visibility: hidden!important;
+}
+
+/* .css-1wa3eu0-placeholder {
+  display: none!important;
+}
+
+.css-1wa3eu0-placeholder::after {
+  display: block!important;
+  content: 'Municipality, Province or City'!important;
+ 
+} */
+
