@@ -32,7 +32,7 @@ function Home(props) {
                         <meta property="og:image" content="https://drive.google.com/thumbnail?id=1o9PQIe0vmxhCxvL9qY0NsWUUzXsWfjGh" key="ogimage" />
                   </Head>
                   <NavBar position="fixed" productTitle="">
-                        <div className="flex absolute  items-center justify-center h-full text-center z-50">
+                        <div className="flex absolute w-11/12 h-screen  items-center justify-center text-center z-50">
 
                               <div className=' text-center '>
                                     <div className=" text-6xl font-bold text-center ">
@@ -56,7 +56,7 @@ function Home(props) {
 
 
 
-                        <svg className=' hidden sm:block h-full' width="1569" height="877" viewBox="0 0 1569 877" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                        <svg className=' hidden sm:block  w-full'  viewBox="0 0 1569 877" fill="transparent" xmlns="http://www.w3.org/2000/svg">
                               <g className=' opacity-25 '>
                                     <path d="M1307.22 737.554C1336.23 737.554 1350.75 772.564 1330.24 793.042L1214.73 908.361C1208.63 914.46 1200.35 917.881 1191.71 917.881H908.623C879.643 917.881 865.107 882.927 885.56 862.433L1000.67 747.114C1006.78 740.991 1015.07 737.554 1023.73 737.554H1307.22Z" fill="url(#paint0_linear_0_1)" />
                                     <path d="M1374.99 459.464C1374.99 430.507 1339.93 416.004 1319.42 436.481L1203.91 551.804C1197.81 557.898 1194.37 566.167 1194.37 574.788V1400.89C1194.37 1429.85 1229.44 1444.35 1249.95 1423.88L1365.46 1308.56C1371.57 1302.46 1374.99 1294.19 1374.99 1285.57V459.464Z" fill="url(#paint1_linear_0_1)" />

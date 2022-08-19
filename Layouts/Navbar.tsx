@@ -190,7 +190,7 @@ function Navbar(props, { children, position, productTitle }) {
 
 
         <main>
-          <div className="max-w-6xl mx-auto  sm:px-6 lg:px-8">
+          <div className=" mx-auto  ">
             {/* <!-- Replace with your content --> */}
 
             {props.children}
