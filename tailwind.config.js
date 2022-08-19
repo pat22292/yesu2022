@@ -46,6 +46,14 @@ module.exports = {
         'theme-blue': '#004a9f',
         'theme-green': '#131A22',
         'dark-bg': '#202124',
+        'theme-yesu': '#5433FB',
+        'first-color': '#5433FB',
+        'second-color': '#0CC3E9'
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'wiggle': 'wiggle 1s ease-in-out infinite',
+
       },
       screens: {
         'sm': '640px',

@@ -52,7 +52,7 @@ export default function Table({ products, setSelectedProductsNull }) {
   }
 
   return (
-    <div className="px-0 mx-0 pb-16 sm:pt-36 pt-0">
+    <div className="px-0 mx-0  pt-0">
       <div className="grid grid-cols-3">
         <div className="sm:col-span-2 col-span-3">
           <Swiper
