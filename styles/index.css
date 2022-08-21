@@ -269,7 +269,7 @@ input[type=number] {
   }
 
   50% {
-    transform: translate(0, 8px);
+    transform: translate(0, 32px);
   }
 
   100% {
@@ -279,7 +279,7 @@ input[type=number] {
 
 .floating-4 {
   animation-name: floating;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -290,7 +290,7 @@ input[type=number] {
   }
 
   50% {
-    transform: translate(0, 8px);
+    transform: translate(0, 32px);
   }
 
   100% {
