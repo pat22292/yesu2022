@@ -297,3 +297,111 @@ input[type=number] {
     transform: translate(0, -0px);
   }
 }
+
+
+
+.one-service {
+  animation-name: one-service;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes one-service {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(5px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+
+.two-service {
+  animation-name: two-service;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes two-service {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(5px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.three-service {
+  animation-name: three-service;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes three-service {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(5px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.four-service {
+  animation-name: four-service;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes four-service {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(5px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.five-service {
+  animation-name: five-service;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes five-service {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(5px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+}
