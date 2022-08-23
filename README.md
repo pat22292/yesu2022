@@ -12,7 +12,7 @@ npm run dev
 yarn dev
 ```
 
-Test from pangulang -- test ssh key
+Test from pangulang -- test ssh key 2022
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
